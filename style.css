@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(4, 43, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    color: bisque;
+}
+
+.digit{
+
+    font-size: 150px;
+    font-weight: bold;
+
+}
+.txt{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#btn-container{
+    text-align: center;
+    margin-top:40px;
+
+}
+.btn{
+    padding:7px 25px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0px 10px;
+    
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+
+
+}
+#start{
+    background-color: rgb(147, 245, 49);
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color:gray;
+}
